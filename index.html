@@ -4,23 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="style.css">
     <title>Dropdown menu</title>
 </head>
 <body>
-<ul>
+    <ul class="menu">
+
     <li><a href="#home">Home</a></li>
     <li><a href="#news">News</a></li>
-    <li class="dropdown">
-      <a href="javascript:void(0)" class="dropbtn">My interests</a>
-      <div class="dropdown-content">
-        <a href="https://anastassiyas.github.io/CSS-BOX-MODEL/bootstrap.html#">Cooking</a>
-        <a href="https://anastassiyas.github.io/WIREFRAME/country.html">Travelling</a>
-        <a href="https://anastassiyas.github.io/CSS-BOX-MODEL/mycat.html">Pets</a>
-        <a href="https://anastassiyas.github.io/CSS-BOX-MODEL/">Movies</a>
-      </div>
-    </li>
-  </ul>   
+    <li><a href="#">My interests</a>
+
+    <ul> 
+    <li><a href="https://anastassiyas.github.io/CSS-BOX-MODEL/bootstrap.html#" class="cooking">Cooking</a></li>
+    <li><a href="https://anastassiyas.github.io/WIREFRAME/country.html" class="travel">Travelling</a></li>
+    <li><a href="https://anastassiyas.github.io/CSS-BOX-MODEL/mycat.html" class="pets">Pets</a></li>
+    <li><a href="https://anastassiyas.github.io/CSS-BOX-MODEL/" class="movies">Movies</a></li>
+    </ul> 
+    </li>  
+    <li><a href="#">Videos</a></li>
+    <li><a href="#">Documents</a></li>
+      
+    </ul>   
 
 </body>
 </html>
